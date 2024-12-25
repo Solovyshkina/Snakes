@@ -1,0 +1,56 @@
+.header {
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 50px;
+  color: #fff;
+  border-radius: 50px 50px 0px 0px;
+  margin: 0px 15px 0px 15px;
+
+}
+
+.logo-link {
+  text-decoration: none;
+  color: inherit; /* Использует цвет текста родителя */
+  cursor: pointer;
+}
+
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #3f986a;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #ddd;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.btn-primary {
+  background-color: #3f986a;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-secondary {
+  background-color: #333;
+  color: #ddd;
+  padding: 10px 20px;
+  border: 1px solid #555;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
